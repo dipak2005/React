@@ -1,12 +1,21 @@
 
 import './App.css'
+import  ProductTab from "./ProductTab";
+import  UserTab from "./UserTab";
+import AmazonCardTab from './AmazonCardTab';
+import Button from './Button';
 
-function Title() {
-  return <h1>I am the title</h1>
-}
+
 function App() {
  
-   return <Title/>;
+   return (
+     <>
+     <ProductTab></ProductTab>
+      <UserTab></UserTab>
+      <AmazonCardTab></AmazonCardTab>
+      <Button/>
+     </>
+   );
 }
 
-export default App
+export default App;

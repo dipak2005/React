@@ -1,0 +1,14 @@
+.Amazon {
+     background-color: goldenrod;
+     margin: 10px;
+     padding: 10px;
+     border-radius: 5px;
+}
+
+.Amazon-card {
+    height: 200px;
+    width: 100%;
+    background-color: aqua;
+    border-radius: 5px;
+    padding: 2px;
+}
